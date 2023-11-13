@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#ffdc5e, #ffbf81, #ffa3a5, #ff86c8);
+    color: #973aa8;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px white;
+    }
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 300px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    filter: hue-rotate(300deg);
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2RiajFvaGw0ZmtzNjQ3MncwNTN0dmhranVwYmt1NnVvOTlmcXc3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPeGEZi9Fr2OVSo/giphy-downsized-large.gif");
+    filter: none;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDd4ZGIwZndueGFpMnJ5aXhldG02cXhzZTc5MTlreDMwMzRqaWNpNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPtyZ7IGAWlhnxu/giphy-downsized-large.gif");
+    filter: none;
+}
+
+#gift-img-okay:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDRyOGdvdnJxMno3YWZ0dHFyZ2wzcGFzODYyN3NtazkwYzR5bzlmYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0IyheU24qZ3VsNfa/giphy.gif");
+    filter: none;
+}
+
+#gift-img-cool:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDV3Mzd3NXIxb2RtMnE0Ynpwdmtxazh4dm96ZnBycWd6ZXk4MTRrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0ExayrksoJHllgWI/giphy.gif");
+    filter: none;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXZ0dzVxMG9heWx4ZjNydTNtc2UxaXdmaGUzdWF2MDF0dGFmYzBqbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0JMmfhjQdeh7QSmA/giphy.gif");
+    filter: none;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
